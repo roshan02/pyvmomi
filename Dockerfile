@@ -1,5 +1,5 @@
-FROM vmware/photon2
 #FROM vmware/photon2
+FROM vmware/photon2
 ENV TERM linux
 WORKDIR /root
 RUN tdnf install -y python-pip
